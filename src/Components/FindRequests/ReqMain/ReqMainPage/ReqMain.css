@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    width: 100vw;
+}
+
+.ltnsearch-cont {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fce2e3;
+}
+
+.ltnwant {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 25rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    background: rgba(187, 187, 187, 0.473);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.ltnwant:hover,
+.ltnlocate:hover {
+    background: white;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+.ltnlocate {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 17rem;
+    border: none;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    background: rgba(187, 187, 187, 0.473);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.ltnsubmit {
+    background: #c0090e;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 7rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.ltnsubmit:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+    font-weight: 700;
+    border: 1px solid rgba(116, 115, 115, 0.459);
+}
+
+.Bodyfilt {
+    display: flex;
+    position: relative;
+}
+
+.filt {
+    flex: 1;
+    order: 1;
+    height: 80rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0rem 2rem 1rem 0rem rgba(187, 187, 187, 0.685);
+}
+
+.Bodyshow {
+    flex: 5;
+    order: 2;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Bodyad {
+    flex: 1;
+    order: 3;
+    background: rgba(170, 170, 170, 0.253);
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.MainCats {
+    padding: 2rem 2rem 0rem 2rem;
+    border: none;
+    border-radius: 2rem 0rem 0rem 2rem;
+    background: #fffffff1;
+}
+
+.MainCats li {
+    margin-bottom: .1rem;
+    padding: .2rem .1rem;
+}
+
+.MainCats li:hover {
+    background: rgb(221, 221, 221);
+}
+
+.MainCats h1 {
+    font-size: 1rem;
+    color: #00afefc5;
+}
+
+.catfiltbody {
+    font-size: 1.4rem;
+    font-family: 'Poppins' sans-serif;
+    color: #b4b1b1;
+}
+
+.ptab {
+    margin-top: 1rem;
+    border: 1px solid rgb(148, 148, 148);
+    box-shadow: 0rem 1rem 1rem 0rem rgba(122, 122, 122, 0.281);
+    border-radius: 1rem;
+    transition: all .5s ease;
+    margin-right: 2rem;
+}
+
+.ptab:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ptab img {
+    width: 23rem;
+    height: 15rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.ptab label {
+    font-size: 1.2rem;
+    font-style: oblique;
+    color: white;
+    background: rgba(255, 52, 52, 0.596);
+    padding-left: .6rem;
+}
+
+.ptab span {
+    font-size: 1.24rem;
+    font-family: 'Poppins' sans-serif;
+    padding-left: .3rem;
+}
+
+.provisit {
+    border: none;
+    width: 14.6rem;
+    background: #0195ca;
+    color: white;
+    cursor: pointer;
+    padding-top: .3rem;
+    padding-bottom: .45rem;
+    border-radius: 0rem 0rem 0rem 1rem;
+    margin-top: .5rem;
+}
+
+.provery {
+    border: none;
+    width: 8.2rem;
+    background: green;
+    color: white;
+    padding-top: .3rem;
+    padding-bottom: .45rem;
+    border-radius: 0rem 0rem 1rem 0rem;
+}

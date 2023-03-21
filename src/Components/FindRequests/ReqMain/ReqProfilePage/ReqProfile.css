@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.prohero {
+    width: 94vw;
+    height: 60vh;
+    border: none;
+    box-shadow: 0rem 0rem 2rem 0rem gray;
+    margin-left: 3.5rem;
+    animation: proslide 40s infinite;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.prohero img {
+    width: 94vw;
+    height: 60vh;
+    float: left;
+}
+
+@keyframes slide {
+    0% {
+        nav-up: 0vh;
+    }
+    25% {
+        nav-up: 0vh;
+    }
+    25.1% {
+        nav-up: -60vh;
+    }
+    50% {
+        nav-up: -60vh;
+    }
+    50.1% {
+        nav-up: -120vh;
+    }
+    75% {
+        nav-up: -120vh;
+    }
+    75.1% {
+        nav-up: -180vh;
+    }
+    100% {
+        nav-up: -180vh;
+    }
+}
+
+.piccontainer {
+    position: relative;
+}
+
+.propic {
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 59%;
+    float: right;
+    margin: 0rem 10rem;
+}
+
+.propic img {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+}
+
+.prodetail {
+    margin-top: 4rem;
+    height: 30rem;
+}
+
+.proname {
+    width: 50vw;
+    float: left;
+    margin-bottom: 3rem;
+}
+
+.proname label {
+    font-size: 2rem;
+    padding-left: 10rem;
+}
+
+.proname span {
+    font-size: 2.2rem;
+    padding-left: 2rem;
+    display: inline-block;
+}
+
+.proname button {
+    margin-left: 10rem;
+    border: none;
+    font-size: 2rem;
+    background: red;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.willstate {
+    margin-left: 15rem;
+}
+
+.promap {
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 5rem;
+    /* border-top: 1px solid rgb(167, 167, 167); */
+    box-shadow: 5rem 0rem gray;
+    margin-left: 0rem;
+}
+
+.promapdetail {
+    flex: 1;
+    order: 1;
+}
+
+.promapdetail label {
+    font-size: 2rem;
+    padding-left: 5rem;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+    color: rgb(78, 78, 78);
+    margin-bottom: 1rem;
+}
+
+.promapdetail span {
+    font-size: 2rem;
+    padding-left: 3rem;
+    display: block;
+    border: 3px solid rgba(104, 104, 104, 0.637);
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.promapmap {
+    flex: 1;
+    order: 2;
+    border: 3px dashed blue;
+    margin-left: 2rem;
+}
+
+.pricetb {
+    margin-left: 5rem;
+    border: 2px solid gray;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.proint {
+    width: 100vw;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.proint button {
+    border: none;
+    font-size: 2rem;
+    background: red;
+    color: white;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.promes,
+.prorev {
+    width: 50vw;
+    height: 80vh;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.promes h2,
+.prorev h2,
+.proquest h2 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.promes li {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.promes input,
+.prorev input,
+.proquest input {
+    width: 35vw;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.msg {
+    height: 30vh;
+}

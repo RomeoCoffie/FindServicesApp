@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Ad {
+    height: 27rem;
+    width: 20rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    display: block;
+    transition: all .5s ease;
+}
+
+.Ad:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.Ad img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: groove;
+    margin: 1rem 2.5rem;
+}

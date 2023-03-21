@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.categories {
+    background: #f4effb94;
+    padding-top: 2rem;
+    width: 100%;
+    padding-bottom: 3rem;
+    /* align-self: auto; */
+    /* position: relative; */
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab1,
+.tab2,
+.tab3,
+.tab4,
+.tab5,
+.tab6,
+.tab7,
+.tab8 {
+    background: #00afefc5;
+    text-align: center;
+    transition: all .5s ease;
+    border-radius: 2rem;
+    display: block;
+    width: 22rem;
+    height: 25rem;
+    padding: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.hh3,
+.hh3:hover {
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.tab1:hover,
+.tab2:hover,
+.tab3:hover,
+.tab4:hover,
+.tab5:hover,
+.tab6:hover,
+.tab7:hover,
+.tab8:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8 {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 4rem;
+}
+
+.handytab,
+.artisantab,
+.accounttab,
+.writingtab,
+.graphictab,
+.programmingtab,
+.videotab,
+.educationtab {
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: #277071;
+    margin-bottom: 1rem;
+}

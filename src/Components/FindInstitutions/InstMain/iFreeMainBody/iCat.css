@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.categories {
+    background: #f4effb94;
+    padding-top: 2rem;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.itab1,
+.itab2,
+.itab3,
+.itab4,
+.itab5,
+.itab6,
+.itab7,
+.itab8 {
+    background: #00afefc5;
+    transition: all .5s ease;
+    border-radius: 2rem;
+    display: block;
+    width: 25rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 12rem;
+}
+
+.ihh3,
+.ihh3:hover {
+    font-size: 2.5rem;
+    text-decoration: none;
+    order: 2;
+}
+
+.itab1:hover,
+.itab2:hover,
+.itab3:hover,
+.itab4:hover,
+.itab5:hover,
+.itab6:hover,
+.itab7:hover,
+.itab8:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.iimage1,
+.iimage2,
+.iimage3,
+.iimage4,
+.iimage5,
+.iimage6,
+.iimage7,
+.iimage8 {
+    height: 6rem;
+    width: 6rem;
+    order: 1;
+    margin-right: 1rem;
+}
+
+.ihandytab,
+.iartisantab,
+.iaccounttab,
+.iwritingtab,
+.igraphictab,
+.iprogrammingtab,
+.ivideotab,
+.ieducationtab {
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: #277071;
+    margin-bottom: 1rem;
+}

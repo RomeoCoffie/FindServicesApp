@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', 'sans-serif';
+    width: 100vw;
+}
+
+.dashhead {
+    width: 100vw;
+    height: 10vh;
+    background: gray;
+    padding: 1rem;
+}
+
+
+.dashhead select {
+    float: right;
+    font-size: 2rem;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    color: white;
+    margin-right: 4rem;
+    background: rgb(179, 23, 23);
+}
+
+.dashmain {
+    /* display: flex; */
+    width: 100vw;
+    display: flex;
+}
+
+.dashmenu {
+    order: 1;
+    height: 60rem;
+    background: rgba(179, 179, 179, 0.541);
+    padding-top: 2rem;
+    width: 17vw;
+    display: block;
+
+}
+
+.dashmenu ul {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.dashmenu li {
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.dashmenu li:hover{
+    margin-left: 2em;
+    transition: .5s;
+}
+
+
+.dashmenu button {
+    margin-left: 1.5rem;
+    padding: 1rem;
+    background: rgb(62, 175, 28);
+    color: white;
+    margin-top: 3rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.profilePicStyle{
+    height: 15rem;
+    width: 15rem;
+}
+
+.dashmenusub {
+    /* flex: 2; */
+    order: 2;
+    margin: 1rem;
+    /* overflow: scroll;*/
+    float: right;
+    width: 100%;
+}
+
+.dashoverview {
+    order: 2;
+    width: 100%;
+    display: block;
+    display: flex;
+}
+
+.dashoversum {
+    flex: 2;
+    order: 1;
+}
+
+.overpods {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashoverpro {
+    flex: 1;
+    order: 2;
+}
+
+.propod {
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    border: 1px solid gray;
+    margin-left: 3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.propod img {
+    background-color: rgba(46, 46, 248, 0.685);
+    padding: 2rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.overstats {
+    border: 3px solid gray;
+    height: 40rem;
+    width: 50rem;
+    margin-left: 3rem;
+}
+
+.overtodo ul {
+    margin-left: 10rem;
+    list-style-type: disc;
+    width: 30rem;
+}
+
+.overtodo li {
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    font-size: 2rem;
+    background-color: red;
+    color: white;
+}
+
+.dashpropic img {
+    height: 25rem;
+    width: 35rem;
+    border-radius: 1rem;
+}
+
+.dashprotext label {
+    display: block;
+    font-size: 2rem;
+}
+
+.dashprotext span {
+    display: block;
+    font-size: 2rem;
+}
+
+.dashproabout label {
+    display: block;
+    font-size: 2rem;
+}
+
+.dashproabout span {
+    display: block;
+    font-size: 2rem;
+}
+
+.dashaccount h3,
+.overhd,
+.dashservices h3,
+.dashnotice h3,
+.dashreviews h3,
+.dashquests h3,
+.dashinbox h3 {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    width: 95%;
+    background: rgba(179, 179, 179, 0.541);
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.dashaccount {
+    border-radius: .5rem;
+    padding-bottom: 20rem;
+}
+
+.dashaccount button {
+    margin-left: 10rem;
+    padding: 1rem 2rem;
+    color: white;
+    background: rgb(182, 40, 40);
+    border-radius: .5em;
+    border: none;
+    font-family: 'Poppins', 'Sans-Serif';
+    margin-bottom: 1em;
+
+}
+
+.dashaccount label {
+    font-size: 2rem;
+    padding-left: 10rem;
+    font-family: 'Poppins', 'Sans-Serif';
+}
+
+.dashaccinput textarea,
+.dashaccinput span {
+    font-size: 2rem;
+    padding: .5rem 2rem;
+    width: 50%;
+    border: 1px solid gray;
+    margin-right: 10rem;
+    float: right;
+}
+
+.dashaccinput input,
+.dashaccinput select {
+    font-size: 2rem;
+    margin-left: 2rem;
+    float: right;
+}
+
+.dashaccinput {
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.dashservicesProTab {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashservices {
+    width: 100%;
+}
+
+.dashservp {
+    margin-left: 2rem;
+}
+
+/* .dashservicepage label,
+.dashservicepage input,
+.dashservicepage select {
+    font-size: 2rem;
+} */
+
+.inputwiden {
+    height: 10rem;
+}
+
+.dashnotice li {
+    display: flex;
+    list-style: decimal;
+    width: 50vw;
+    border: 1px solid gray;
+}
+
+.dashnotice {
+    display: block;
+    width: 100%;
+}
+
+.dnot {
+    display: inline-block;
+}
+
+.dnot textarea {
+    float: right;
+}
+
+.dashnop {
+    margin-left: 2rem;
+}
+
+.notimage {
+    flex: 1;
+    order: 1;
+}
+
+.nottext {
+    flex: 5;
+    order: 2;
+}
+
+.nottext label {
+    font-size: 2rem;
+}
+
+.nottext textarea {
+    float: right;
+}
+
+.dashnoticepage label {
+    font-size: 2rem;
+}
+
+.dashnoticepage input {
+    width: 30rem;
+}
+
+.reviewstats {
+    width: 40rem;
+    display: flex;
+}
+
+.reviewstats div {
+    width: 40rem;
+    height: 15rem;
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.reviewstats div:hover {
+    background: green;
+    color: white;
+}
+
+.reviewstats span {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.reviewstats label {
+    color: gray;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.reviewcard {
+    width: 60%;
+    border: 2px solid gray;
+    margin-top: 2rem;
+}
+
+.rev,
+.questa {
+    margin: 0rem 2rem;
+}
+
+.dashquests {
+    width: 100%;
+}
+
+.dashreviews {
+    width: 100%;
+}
+
+.expArea{
+    height: 20rem;
+    padding: 1em;
+
+}
+.expTabs{
+    display: flex;
+    flex-direction: row;
+}
+
+.expTab{
+    background-color: rgba(179, 179, 179, 0.541);
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 15rem;
+    margin-right: 2rem;
+}
+.expTab:hover{
+    scale: 1.1;
+    transition: 1s;
+    cursor: pointer;
+}
+.expTabhead{
+    font-size: 2em;
+    font-family: 'Poppins','sans-serif';
+    color: purple
+}
+.expTabdate{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}

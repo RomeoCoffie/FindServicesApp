@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.whole {
+    width: 100vw;
+    display: flex;
+}
+
+.Ads {
+    flex: 1;
+    order: 1;
+    background: rgb(206, 206, 206);
+}
+
+.Main {
+    flex: 4;
+    order: 2;
+}
+
+.slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slide 40s infinite;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@keyframes slide {
+    0% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image10.jpg');
+    }
+    20% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image10.jpg');
+    }
+    20.01% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image13.jpg');
+    }
+    40% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image13.jpg');
+    }
+    40.01% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/hero.png');
+    }
+    60% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/hero.png');
+    }
+    60.01% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image16.jpg');
+    }
+    80% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image16.jpg');
+    }
+    80.01% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image2.jpg');
+    }
+    100% {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../Image-Files/image2.jpg');
+    }
+}
+
+.load {
+    animation: slide 2s;
+}
+
+.menuitems {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.item1 {
+    font-size: 1.5rem;
+    font-family: 'Advent Pro', sans-serif;
+    padding: 1rem 2rem;
+    color: white;
+    border: 1px solid blue;
+    background: none;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.item1:hover {
+    border: 0px 0px 1px 0px solid white;
+    color: red;
+}
+
+.fdmnsearch {
+    margin-top: 25rem;
+    text-align: center;
+}
+
+.fdmnwant {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 25rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.fdmnlocate {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 17rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.fdmnwant:hover,
+.fdmnlocate:hover {
+    background: white;
+}
+
+.fdmnsubmit {
+    background: #c0090e;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 7rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.fdmnsubmit:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.popular {
+    background: rgba(255, 255, 255, 0.308);
+    width: 84.5vw;
+    margin-top: 15rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.pop {
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    padding-top: .5rem;
+    font-size: 2rem;
+}
+
+.pop1,
+.pop2,
+.pop3,
+.pop4 {
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+    background: #00afefc5;
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+a,
+Link {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100vw;
+    background: #00afefc5;
+    height: 20rem;
+}
+
+.footcontainer {
+    display: flex;
+    margin: 5rem 10rem;
+    padding-top: 2rem;
+}
+
+.foot1 {
+    flex: 1;
+    order: 1;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.foot2 {
+    flex: 1;
+    order: 2;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.foot3 {
+    flex: 1;
+    order: 3;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.foot4 {
+    flex: 1;
+    order: 4;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+
+/* .foottext {
+    text-align: center;
+} */
+
+.footbtn {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: .5rem 1.5rem;
+    background: #00afefc5;
+    color: white;
+    border-radius: 1rem;
+}
+
+.footlink {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}

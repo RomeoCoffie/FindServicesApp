@@ -1,0 +1,29 @@
+.testimony {
+    width: 100vw;
+    height: 30rem;
+    background: #f4effb94;
+    padding-top: 1rem;
+}
+
+.testcontainer {
+    display: flex;
+    overflow: hidden;
+}
+
+.testheads {
+    text-align: center;
+    color: #c0090e;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.news {
+    flex: 1;
+    order: 1;
+    width: 50%;
+}
+
+.test {
+    flex: 1;
+    order: 2;
+    width: 50%;
+}

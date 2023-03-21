@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.findheader {
+    width: 100vw;
+    height: 10vh;
+    box-shadow: 0rem 0rem 2rem 0rem gray;
+}
+
+.findlogo {
+    float: left;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.findlogs {
+    float: right;
+    margin-right: 5rem;
+}
+
+.findlogin {
+    background: #be4535;
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    float: right;
+}
+
+.findlogout {
+    background: #be4535;
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}

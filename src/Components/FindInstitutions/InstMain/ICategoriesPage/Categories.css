@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hero {
+    height: 30rem;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../../../../Image-Files/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-flow: column;
+}
+
+h2.backcat {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 8rem;
+}
+
+
+/* search {
+    margin-top: 25rem;
+    text-align: center;
+} */
+
+.bkwant {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 25rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+    margin-right: 1rem;
+}
+
+.bklocate {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 17rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+    margin-right: 1rem;
+}
+
+.bksubmit {
+    background: #c0090e;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 7rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.bksubmit:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.catheadings {
+    order: 1;
+    width: 15vw;
+    height: 130rem;
+    background: rgba(110, 110, 110, 0.13);
+    padding-left: 2rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0rem .2rem .5rem 0rem rgba(0, 0, 0, 0.123);
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+.catheadings li {
+    margin-bottom: 1rem;
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.catheadings li:hover {
+    background: green;
+    color: white;
+}
+
+.white {
+    padding: 1rem 3rem 1rem 0rem;
+}
+
+.white:hover {
+    color: white;
+}
+
+.catfilthead {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+.hand-tab {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 10px 0px rgba(58, 58, 58, 0.712);
+    background: #00afefc5;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/*.hand-content,
+.art-content,
+.account-content,
+.writing-content,
+.graphics-content,
+.programs-content,
+.educate-content,
+.video-content {
+display: none;
+flex-wrap: wrap;
+width: 80%;
+}*/
+
+.hand-img {
+    height: 8rem;
+    padding-left: 3.4rem;
+    padding-top: 2rem;
+}
+
+.thumbtext {
+    text-align: center;
+    padding-top: .2rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.keywords {
+    order: 3;
+    width: 30rem;
+    height: 83rem;
+    background: rgba(110, 110, 110, 0.13);
+    border-radius: 1rem;
+    box-shadow: 0rem .2rem .5rem 0rem rgba(0, 0, 0, 0.123);
+}
+
+.keys {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    flex-wrap: wrap;
+}
+
+.key {
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(255, 0, 0, 0.39);
+    max-width: 10rem;
+    padding: .2rem .6rem;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.catcont {
+    display: flex;
+    width: 100vw;
+}
+
+.subcathd {
+    margin-bottom: 2rem;
+}
+
+.catsubs {
+    order: 2;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 75%;
+}
+
+div.Bodyshow {
+    flex-wrap: wrap;
+}
+
+.catcards {
+    display: flex;
+    flex-wrap: wrap;
+}
